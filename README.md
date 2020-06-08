@@ -4,6 +4,10 @@ This package of html, css and javascript lets you control your RGB-LED strips dy
 or any other device that can run a browser. One benefit is that you don't need any third party service or a constant internet connection
 like in the case with some IoT solutions!
 
+## Disclaimer
+
+This project uses "Name that color" (ntc.js) from Chirag Mehta (http://chir.ag/projects/ntc/) which is released under Creative Commons license. A few lines of code in ntc.js have been changed for this project. 
+
 ## Idea
 
 Dialing in the desired colour from a web based platform by just using hmtl and javascript.
