@@ -63,7 +63,7 @@ if (typeof localStorage.w_outta == 'undefined') {
 r.addEventListener('change', function() {
   setColor();
   r_out.value, localStorage.r_outta = r.value;
-  window.location.href ="?red=" + localStorage.r_dec + "?green=" + localStorage.g_dec + "?blue=" + localStorage.b_dec;
+  window.location.href ="?red=" + localStorage.r_dec + "&green=" + localStorage.g_dec + "&blue=" + localStorage.b_dec;
 }, false);
 
 r.addEventListener('input', function() {
@@ -74,7 +74,7 @@ r.addEventListener('input', function() {
 g.addEventListener('change', function() {
   setColor();
   g_out.value, localStorage.g_outta = g.value;
-  window.location.href ="?red=" + localStorage.r_dec + "?green=" + localStorage.g_dec + "?blue=" + localStorage.b_dec;
+  window.location.href ="?red=" + localStorage.r_dec + "&green=" + localStorage.g_dec + "&blue=" + localStorage.b_dec;
 }, false);
 
 g.addEventListener('input', function() {
@@ -85,7 +85,7 @@ g.addEventListener('input', function() {
 b.addEventListener('change', function() {
   setColor();
   b_out.value, localStorage.b_outta = b.value;
-  window.location.href ="?red=" + localStorage.r_dec + "?green=" + localStorage.g_dec + "?blue=" + localStorage.b_dec;
+  window.location.href ="?red=" + localStorage.r_dec + "&green=" + localStorage.g_dec + "&blue=" + localStorage.b_dec;
 }, false);
 
 b.addEventListener('input', function() {
@@ -96,7 +96,7 @@ b.addEventListener('input', function() {
 w.addEventListener('change', function() {
   setColor();
   w_out.value, localStorage.w_outta = w.value;
-  window.location.href ="?red=" + localStorage.r_dec + "?green=" + localStorage.g_dec + "?blue=" + localStorage.b_dec;
+  window.location.href ="?red=" + localStorage.r_dec + "&green=" + localStorage.g_dec + "&blue=" + localStorage.b_dec;
 }, false);
 
 w.addEventListener('input', function() {

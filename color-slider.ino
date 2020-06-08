@@ -6,7 +6,7 @@
 #include <FS.h>   // Include the SPIFFS library
 
 // SSID of WiFi network and password of WiFi network
-const char* ssid = "WiFi-Name";
+const char* ssid = "Wifi-Name";
 const char* password = "WiFi-Password"; 
      
 ESP8266WebServer server(80); // Starts the webserver at port 80
@@ -25,7 +25,7 @@ int blue = 0;
 int green = 0;
 
 void setup()
-{
+{ 
   //Set LED pins to OUTPUT
   pinMode(WHITEpin, OUTPUT);
   pinMode(BLUEpin, OUTPUT);
@@ -64,23 +64,23 @@ void loop()
 {
   server.handleClient();
   if (server.hasArg("red")) {
-    red = server.arg("red").toInt();
+    red = server.arg("red").toInt() * 4;
   }
 
   if (server.hasArg("blue")) {
-    blue = server.arg("blue").toInt();
+    blue = server.arg("blue").toInt() * 4;
   }
 
   if (server.hasArg("green")) {
-    green = server.arg("green").toInt();
+    green = server.arg("green").toInt() * 4;
   }
 
-//  Serial.print("Red is: ");
-//  Serial.println(red);
-//  Serial.print("Blue is: ");
-//  Serial.println(blue);
-//  Serial.print("Green is: ");
-//  Serial.println(green);
+  Serial.print("Red is: ");
+  Serial.println(red);
+  Serial.print("Blue is: ");
+  Serial.println(blue);
+  Serial.print("Green is: ");
+  Serial.println(green);
   
   analogWrite(REDpin, red); 
   analogWrite(BLUEpin, blue); 
