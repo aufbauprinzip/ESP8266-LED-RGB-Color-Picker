@@ -16,7 +16,7 @@ You can find more details on this project on https://www.aufbauprinzip.com/blog/
 
 ### Functions
 
-<img src="images/demo.gif" width="200">
+<img src="images/webdemo.gif" width="200">
 
 * web based interface (no internet connection needed) 
 * background color of web interface changes according to colour setting
