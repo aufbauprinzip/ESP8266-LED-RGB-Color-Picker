@@ -20,6 +20,7 @@ You can find more details on this project on https://www.aufbauprinzip.com/blog/
 
 * web based interface (no internet connection needed) 
 * background color of web interface changes according to colour setting
+* Picked color name is being displayed on the web interface thanks to Chirag Metha's "Name that color" script
 
 ## Getting Started
 
