@@ -1,12 +1,12 @@
 # ESP8266-LED-RGB-Slider
 
-This package of html, css and javascript lets you control your RGB-LED strips dynamically by just dialing in the colours from your phone
+This package of html, css and javascript lets you control your RGB-LED lights dynamically by just dialing-in the colors from your phone
 or any other device that can run a browser. One benefit is that you don't need any third party service or a constant internet connection
-like in the case with some IoT solutions!
+like in the case with some IoT solutions! 
 
 ## Idea
 
-Dialing in the desired colour from a web based platform by just using hmtl and javascript.
+Dialing-in the desired color from sliders for RGB via a web-based platform by running hmtl and javascript on a ESP8266.
 
 ## Setup & Functions
 
