@@ -4,6 +4,8 @@ This package of html, css and javascript lets you control your RGB-LED lights dy
 or any other device that can run a browser. One benefit is that you don't need any third party service or a constant internet connection
 like in the case with some IoT solutions! 
 
+https://youtu.be/SbavaBA7aAY
+
 ## Idea
 
 Dialing-in the desired color from sliders for RGB via a web-based platform by running hmtl and javascript on a ESP8266.
