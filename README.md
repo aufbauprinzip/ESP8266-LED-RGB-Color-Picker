@@ -14,7 +14,7 @@ Dialing-in the desired color from sliders for RGB via a web-based platform by ru
 
 In this project I used an Adafruit Feather Huzzah ESP8266 which controls a RGBW LED strip through N-channel MOSFET's. The microcontroller is connected to the home WiFi network and can be controlled from any device that can run a browser. The html, css and javascript files will run from the SPI Flash File System (SPIFFS).
 
-You can find more details on this project on https://www.aufbauprinzip.com/blog/
+You can find more details on this project on https://www.aufbauprinzip.com/
 
 ### Functions
 
